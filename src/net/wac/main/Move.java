@@ -2,8 +2,6 @@ package net.wac.main;
 
 import java.util.ArrayList;
 
-import static net.wac.dependencies.convertBinaryToAscii.setStringtoASCII;
-
 public class Move {
 	
 	// Stores the memory adress given by the functions below
@@ -19,14 +17,6 @@ public class Move {
 		
 	}
 
-	static void convertAndReadIns() {
-		setStringtoASCII(String.valueOf(InsCode));
-	}
-
-	public static void readInsCode(String convertedString) {
-
-	}
-	
 	public static void registerMem(String memAdress) {
 		Memory.add(memAdress);
 		System.out.println(Memory);
