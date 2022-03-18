@@ -37,8 +37,7 @@ public class Move {
 	public static void main(String[] args) {
 		
 		System.out.println("Start of class: " + class_name);
-		MoveMem("0x0", "01101101 01110110");
-		convertAndReadIns();
+		MoveMem("0x0", "mv");
 	}
 }
 
